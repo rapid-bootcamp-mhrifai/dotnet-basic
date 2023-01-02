@@ -1,0 +1,15 @@
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\bin\Debug\net7.0\LogicDasar.exe
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\bin\Debug\net7.0\LogicDasar.deps.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\bin\Debug\net7.0\LogicDasar.runtimeconfig.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\bin\Debug\net7.0\LogicDasar.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\bin\Debug\net7.0\LogicDasar.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.csproj.AssemblyReference.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.AssemblyInfoInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.AssemblyInfo.cs
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.csproj.CoreCompileInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\refint\LogicDasar.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\LogicDasar.genruntimeconfig.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Logic02\obj\Debug\net7.0\ref\LogicDasar.dll
