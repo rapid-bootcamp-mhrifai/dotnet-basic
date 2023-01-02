@@ -1,0 +1,15 @@
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.exe
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.deps.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.runtimeconfig.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.AssemblyReference.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfoInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfo.cs
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.CoreCompileInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\refint\Statement.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.genruntimeconfig.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\ref\Statement.dll
