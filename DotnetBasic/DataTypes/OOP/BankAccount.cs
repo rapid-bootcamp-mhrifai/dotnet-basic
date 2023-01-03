@@ -28,6 +28,10 @@ namespace DataTypes.OOP
             }
         }
 
+        private readonly decimal _minimumBalance;
+
+        public BankAccount(string name, decimal initialBalance) : this(name, initialBalance, 0) { }
+
         public BankAccount()
         {
         }
@@ -36,6 +40,18 @@ namespace DataTypes.OOP
         { 
         }
 
+        public BankAccount(string name, decimal initialBalance, decimal minimumBalance)
+        {
+            Number = accountNumberSeed.ToString();
+            accountNumberSeed++;
+
+            Owner = name;
+            _minimumBalance = minimumBalance;
+            if (initialBalance > 0)
+                MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
+        }
+
+        /*
         public BankAccount(string name, decimal initialBalance)
         {
             Number = accountNumberSeed.ToString();
@@ -44,6 +60,7 @@ namespace DataTypes.OOP
             Owner = name;
             MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
         }
+        */
 
         private List<Transaction> allTransactions = new List<Transaction>();
 
@@ -63,6 +80,31 @@ namespace DataTypes.OOP
             {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
             }
+            Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance);
+            Transaction? withdrawal = new(-amount, date, note);
+            allTransactions.Add(withdrawal);
+            if (overdraftTransaction != null)
+                allTransactions.Add(overdraftTransaction);
+        }
+
+        protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
+        {
+            if (isOverdrawn)
+            {
+                throw new InvalidOperationException("Not sufficient funds for this withdrawal");
+            }
+            else
+            {
+                return default;
+            }
+        }
+
+        /*public void MakeWithdrawal(decimal amount, DateTime date, string note)
+        {
+            if (amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
+            }
             if (Balance - amount < 0)
             {
                 throw new InvalidOperationException("Not sufficient funds for this withdrawal");
@@ -70,6 +112,7 @@ namespace DataTypes.OOP
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
         }
+        */
 
         #region History
         public string GetAccountHistory()
