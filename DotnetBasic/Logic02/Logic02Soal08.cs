@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace LogicDasar
 {
-    public class Logic02Soal04
+    public class Logic02Soal08
     {
-        public Logic02Soal04()
+        public Logic02Soal08()
         {
         }
 
         public static void CetakData(int n)
         {
-            Console.WriteLine("Soal04" + "\n");
+            Console.WriteLine("Soal08" + "\n");
             int[] deret = new int[n];
             for (int i = 0; i < n; i++)
             {
@@ -23,9 +23,11 @@ namespace LogicDasar
                     if (j <= 1) deret[j] = 1;
                     else deret[j] = deret[j - 1] + deret[j - 2];
 
-                    if (j == 0 || i == 0 || j == n - 1 || i == n - 1 || j == n / 2 || i == n / 2)
+                    if (j >= n / 2 && j <= n - i - 1
+                            || j <= n / 2 && j >= n - i - 1)
                     {
-                        Console.Write(deret[j] + "\t");
+                        if (n / 2 < i) Console.Write(deret[n - i - 1] + "\t");
+                        else Console.Write(deret[i] + "\t");
                     }
                     else
                     {
