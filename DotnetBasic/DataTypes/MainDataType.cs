@@ -1,4 +1,5 @@
-﻿using DataTypes.CustomType;
+﻿using DataTypes.Abstract;
+using DataTypes.CustomType;
 using DataTypes.Inheritance;
 using DataTypes.OOP;
 using DataTypes.OOP.Inheritance;
@@ -35,8 +36,33 @@ namespace DataTypes
             //GiftCardAccountSample();
             //InterestEarningAccountsample();
             //LineOfCreditAccountSample();
-            BookPublication();
+            //AutomobileExample();
+            //BookPublication();
+            ShapeExample();
         }
+
+        #region Abstract Example Shape
+        public static void ShapeExample()
+        {
+            Shape[] shapes = { new Rectangle(10, 12), new Square(5),
+                    new Circle(3) };
+            foreach (Shape shape in shapes)
+            {
+                Console.WriteLine($"{shape}: area, {Shape.GetArea(shape)}; " +
+                                  $"perimeter, {Shape.GetPerimeter(shape)}");
+                if (shape is Rectangle rect)
+                {
+                    Console.WriteLine($"   Is Square: {rect.IsSquare()}, Diagonal: {rect.Diagonal}");
+                    continue;
+                }
+                if (shape is Square sq)
+                {
+                    Console.WriteLine($"   Diagonal: {sq.Diagonal}");
+                    continue;
+                }
+            }
+        }
+        #endregion
 
         #region Inheritance Publication book
         public static void BookPublication()
@@ -57,6 +83,14 @@ namespace DataTypes
             string pubDate = pub.GetPublicationDate();
             Console.WriteLine($"{pub.Title}, " +
                       $"{(pubDate == "NYP" ? "Not Yet Published" : "published on " + pubDate):d} by {pub.Publisher}");
+        }
+        #endregion
+
+        #region Inheritance Example Automobile
+        public static void AutomobileExample()
+        {
+            var packard = new Automobile("Packard", "Custom Eight", 1948);
+            Console.WriteLine(packard);
         }
         #endregion
 
