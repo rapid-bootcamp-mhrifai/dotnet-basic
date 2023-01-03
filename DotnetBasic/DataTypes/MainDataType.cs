@@ -31,8 +31,8 @@ namespace DataTypes
             //SampleClass();
             //BankAccountSample();
             //GiftCardAccountSample();
-            //InterestEarningAccountsample();
-            LineOfCreditAccountSample();
+            InterestEarningAccountsample();
+            //LineOfCreditAccountSample();
         }
 
         #region Sample LineofCredit
