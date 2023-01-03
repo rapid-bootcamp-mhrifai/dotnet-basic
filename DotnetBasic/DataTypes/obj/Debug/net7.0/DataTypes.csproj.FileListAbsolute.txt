@@ -1,0 +1,15 @@
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.exe
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.deps.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.runtimeconfig.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.AssemblyReference.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfoInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfo.cs
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.CoreCompileInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\refint\DataTypes.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.genruntimeconfig.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\ref\DataTypes.dll
