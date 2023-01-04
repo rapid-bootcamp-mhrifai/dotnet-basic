@@ -1,13 +1,17 @@
 ﻿using DataTypes.Abstract;
 using DataTypes.CustomType;
 using DataTypes.Inheritance;
+using DataTypes.ObjectType;
 using DataTypes.OOP;
 using DataTypes.OOP.Inheritance;
+using DataTypes.PolyType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Circle = DataTypes.PolyType.Circle;
+using Rectangle = DataTypes.PolyType.Rectangle;
 
 namespace DataTypes
 {
@@ -38,10 +42,98 @@ namespace DataTypes
             //LineOfCreditAccountSample();
             //AutomobileExample();
             //BookPublication();
-            ShapeExample();
+            //ShapeExample();
+            //SampleObject();
+            //SampleInheritance();
+            SamplePolymorphism();
         }
 
-        #region Abstract Example Shape
+
+        #region Polimorphism
+        public static void SamplePolymorphism()
+        {
+            // Polymorphism at work #1: a Rectangle, Triangle and Circle
+            // can all be used wherever a Shape is expected. No cast is
+            // required because an implicit conversion exists from a derived
+            // class to its base class.
+            var shapes = new List<Shape2>
+            {
+                new Rectangle(),
+                new Triangle(),
+                new Circle()
+            };
+
+            // Polymorphism at work #2: the virtual method Draw is
+            // invoked on each of the derived classes, not the base class.
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
+            /* Output:
+                Drawing a rectangle
+                Performing base class drawing tasks
+                Drawing a triangle
+                Performing base class drawing tasks
+                Drawing a circle
+                Performing base class drawing tasks
+            */
+        }
+        #endregion
+
+
+        #region Sample Inheritance
+        public static void SampleInheritance()
+        {
+            // Create an instance of WorkItem by using the constructor in the
+            // base class that takes three arguments.
+            WorkItem item = new WorkItem("Fix Bugs",
+                                        "Fix all bugs in my code branch",
+                                        new TimeSpan(3, 4, 0, 0));
+
+            // Create an instance of ChangeRequest by using the constructor in
+            // the derived class that takes four arguments.
+            ChangeRequest change = new ChangeRequest("Change Base Class Design",
+                                                    "Add members to the class",
+                                                    new TimeSpan(4, 0, 0),
+                                                    1);
+
+            // Use the ToString method defined in WorkItem.
+            Console.WriteLine(item.ToString());
+
+            // Use the inherited Update method to change the title of the
+            // ChangeRequest object.
+            change.Update("Change the Design of the Base Class",
+                new TimeSpan(4, 0, 0));
+
+            // ChangeRequest inherits WorkItem's override of ToString.
+            Console.WriteLine(change.ToString());
+        }
+        #endregion
+
+
+        #region Sample Object
+        public static void SampleObject()
+        {
+            Person person1 = new Person("Kezia", 26);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            // Declare new person, assign person1 to it.
+            Person person2 = person1;
+
+            // Change the name of person2, and person1 also changes.
+            person2.Name = "Molly";
+            person2.Age = 16;
+
+            Console.WriteLine("person2 Name = {0} Age = {1}", person2.Name, person2.Age);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            Person person3 = new Person("Roni", 30);
+            Console.WriteLine("person3 Name = {0} Age = {1}", person3.Name, person3.Age);
+        }
+        #endregion
+
+
+        /*#region Abstract Example Shape
         public static void ShapeExample()
         {
             Shape[] shapes = { new Rectangle(10, 12), new Square(5),
@@ -63,6 +155,8 @@ namespace DataTypes
             }
         }
         #endregion
+        */
+
 
         #region Inheritance Publication book
         public static void BookPublication()
@@ -86,6 +180,7 @@ namespace DataTypes
         }
         #endregion
 
+
         #region Inheritance Example Automobile
         public static void AutomobileExample()
         {
@@ -93,6 +188,7 @@ namespace DataTypes
             Console.WriteLine(packard);
         }
         #endregion
+
 
         #region Sample LineofCredit
         public static void LineOfCreditAccountSample()
@@ -108,6 +204,7 @@ namespace DataTypes
         }
         #endregion
 
+
         #region Sample GiftCard
         public static void GiftCardAccountSample()
         {
@@ -120,6 +217,7 @@ namespace DataTypes
             Console.WriteLine(giftCard.GetAccountHistory());
         }
         #endregion
+
 
         #region Sample Interest Earning Account Sample
         public static void InterestEarningAccountsample()
@@ -174,6 +272,7 @@ namespace DataTypes
             }
         }
         #endregion
+
 
         #region Sample BankAccount
         public static void BankAccountSample()
@@ -233,6 +332,7 @@ namespace DataTypes
 
         #endregion
 
+
         #region Sample Coord
         public static void SampleCoord()
         {
@@ -243,6 +343,8 @@ namespace DataTypes
             Console.WriteLine("Point 2: " + point2);
         }
         #endregion
+
+
         #region Sample Data Type
         public static void SampleDataType()
         {
