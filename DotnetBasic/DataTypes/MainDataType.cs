@@ -45,7 +45,8 @@ namespace DataTypes
             //ShapeExample();
             //SampleObject();
             //SampleInheritance();
-            SamplePolymorphism();
+            //SamplePolymorphism();
+            SampleClassImplement.InterfaceImplement();
         }
 
 
