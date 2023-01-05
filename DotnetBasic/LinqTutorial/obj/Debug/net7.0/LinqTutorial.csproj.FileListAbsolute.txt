@@ -1,0 +1,15 @@
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.exe
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.deps.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.runtimeconfig.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.AssemblyReference.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfoInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfo.cs
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.CoreCompileInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\refint\LinqTutorial.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.genruntimeconfig.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\ref\LinqTutorial.dll

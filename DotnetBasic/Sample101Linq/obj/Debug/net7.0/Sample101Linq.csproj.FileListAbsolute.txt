@@ -1,0 +1,15 @@
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.exe
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.deps.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.runtimeconfig.json
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.AssemblyReference.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfoInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfo.cs
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.CoreCompileInputs.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\refint\Sample101Linq.dll
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.pdb
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.genruntimeconfig.cache
+C:\Bootcamp Net dan Java\DotNet Batch 2\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\ref\Sample101Linq.dll

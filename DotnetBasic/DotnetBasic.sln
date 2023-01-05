@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicDasar", "Logic02\Logic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{DC51326A-1B8C-4B33-963D-03B1ECE2E2D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTypes", "ConvertType\ConvertTypes.csproj", "{CF847CD9-FB47-4019-8D40-404D245F59C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertTypes", "ConvertType\ConvertTypes.csproj", "{CF847CD9-FB47-4019-8D40-404D245F59C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{28171E57-7172-41FE-8880-D604A762831E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample101Linq", "Sample101Linq\Sample101Linq.csproj", "{EEDBD3DF-4198-43A3-BA30-C2A41FBED289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{CF847CD9-FB47-4019-8D40-404D245F59C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF847CD9-FB47-4019-8D40-404D245F59C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF847CD9-FB47-4019-8D40-404D245F59C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28171E57-7172-41FE-8880-D604A762831E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28171E57-7172-41FE-8880-D604A762831E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28171E57-7172-41FE-8880-D604A762831E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28171E57-7172-41FE-8880-D604A762831E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDBD3DF-4198-43A3-BA30-C2A41FBED289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDBD3DF-4198-43A3-BA30-C2A41FBED289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDBD3DF-4198-43A3-BA30-C2A41FBED289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDBD3DF-4198-43A3-BA30-C2A41FBED289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
